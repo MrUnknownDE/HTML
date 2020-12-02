@@ -1,0 +1,37 @@
+html {
+    text-align: center;
+    font-family: Ubuntu, Arial, sans-serif;
+}
+body {
+    background-color: #cccccc;
+}
+
+
+#gif {
+    background-image: url("res/Komp-1_3_1.gif");
+      background-repeat:no-repeat;
+      width:48px;
+      height:48px;
+      padding-left: 20px; 
+}
+
+
+
+
+
+
+
+
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('ubuntu-v14-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+       url('https://static.syslul.de/src/fonts/Ubuntu/ubuntu-v14-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://static.syslul.de/src/fonts/Ubuntu/ubuntu-v14-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://static.syslul.de/src/fonts/Ubuntu/ubuntu-v14-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('https://static.syslul.de/src/fonts/Ubuntu/ubuntu-v14-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://static.syslul.de/src/fonts/Ubuntu/ubuntu-v14-latin-300.svg#Ubuntu') format('svg'); /* Legacy iOS */
+}
